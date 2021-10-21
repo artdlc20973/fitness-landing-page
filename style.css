@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Festive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://i.ibb.co/k5R4JMt/cap.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner {
+    font-size: 5.5rem;
+    font-family: 'Festive', Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 1.2rem;
+    text-align: center;
+    color:#A75A29;
+    -webkit-text-stroke: .5px #000;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1.4rem;
+    line-height: 1.5;
+    /* color: #e89b6b; */
+    color: #000;
+    word-spacing: 2px;
+    background:  #f0c8ad;
+    opacity: .5;
+}
+
+.btn {
+    width: 250px;
+    padding: 1rem 1.3rem;
+    font-size: 2rem;
+    background: #A75A29;
+    color: #000;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #000;
+    color: #A75A29;
+    outline: none;
+}
+
+@media (max-width:800px) {
+    .banner {
+        font-size: 4.5rem;
+        font-family: 'Festive', Verdana, Tahoma, sans-serif;
+        font-weight: bold;
+        margin: 1rem;
+        text-align: left;
+        color:#A75A29;
+        -webkit-text-stroke: .5px #000;
+    }
+    p {
+        font-size: 1rem;
+        margin: 1.4rem;
+        line-height: 1.5;
+        color: #000;
+        word-spacing: 2px;
+        background:  #f0c8ad;
+
+    }
+    
+.btn {
+    width: 175px;
+    padding: 1rem 1.3rem;
+    font-size: 1.3rem;
+    background: #A75A29;
+    color: #000;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    letter-spacing: 2px;
+}
+    
+}
+
+
+@media (max-width:600px) {
+    .banner {
+        font-size: 4rem;
+        font-family: 'Festive', Verdana, Tahoma, sans-serif;
+        font-weight: bold;
+        margin: 1rem;
+        text-align: left;
+        color:#A75A29;
+        -webkit-text-stroke: .5px #000;
+    }
+    p {
+        font-size: 1rem;
+        margin: 1.4rem;
+        line-height: 1.5;
+        /* color: #e89b6b; */
+        color: #000;
+        word-spacing: 2px;
+        background:  #f0c8ad;
+        opacity: .5;
+    }
+    
+.btn {
+    width: 175px;
+    padding: 1rem 1.3rem;
+    font-size: 1.3rem;
+    background: #A75A29;
+    color: #000;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    letter-spacing: 2px;
+}
+    
+}
+
+@media (max-width:400px) {
+    .banner {
+        font-size: 3rem;
+        margin: 1rem;
+        text-align: left;
+        color:#A75A29;
+        -webkit-text-stroke: .5px #000;
+    }
+    p {
+        font-size: 1rem;
+        margin: 1rem;
+        line-height: 1.5;
+        color: #000;
+        word-spacing: 2px;
+        background:  #f0c8ad;
+        opacity: .5;
+    }
+    
+.btn {
+    width: 165px;
+    padding: .7rem 1rem;
+    font-size: 1.3rem;
+    background: #A75A29;
+    color: #000;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+    letter-spacing: 2px;
+}
+    
+}
+
+
+
+
+
+
